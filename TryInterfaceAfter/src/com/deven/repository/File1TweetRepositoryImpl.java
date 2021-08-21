@@ -12,8 +12,9 @@ public class File1TweetRepositoryImpl implements TweetRepository {
 	public Map<String,String> findAll(){
 	
 		Map<String,String> tweets = new HashMap<>();
-		tweets.put("JHON", "First Tweet");
+		tweets.put("JHON1", "First Tweet");
 		tweets.put("JHON1", "Second Tweet");
+		
 		
 		return tweets;
 	}
