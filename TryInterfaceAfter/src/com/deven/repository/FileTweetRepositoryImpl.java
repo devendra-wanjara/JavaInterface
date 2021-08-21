@@ -13,8 +13,8 @@ public class FileTweetRepositoryImpl implements TweetRepository {
 	public Map<String,String> findAll(){
 	
 		Map<String,String> tweets = new HashMap<>();
-		tweets.put("dEVEN", "First Tweet");
-		tweets.put("DEVEN", "Second Tweet");
+		tweets.put("TOM", "First Tweet");
+		tweets.put("TOM1", "Second Tweet");
 		
 		return tweets;
 	}
